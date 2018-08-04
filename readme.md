@@ -12,12 +12,12 @@
 
 1.  Example Code
 
-[Image]
+![Sample Code](https://github.com/xboudsady/100-algorithms-challenge/blob/master/01-assets/typescript-01.png)
 
 2.  Turn use Quoakka.js plugin for VS Code editor, press `CMD ⌘` + `shift` `p`, which will open the editor's command pallete.
 
-[Image]
+![VS Code Command Pallete](https://github.com/xboudsady/100-algorithms-challenge/blob/master/01-assets/typescript-02.png)
 
 3.  You can view the evaluated output right in the editor, for typescript files to test.
 
-[Image]
+![Quokka console output](https://github.com/xboudsady/100-algorithms-challenge/blob/master/01-assets/typescript-03.png)
