@@ -45,7 +45,7 @@ Trying to get the median value in a way. One way that we're going to deal when i
 
 How do we find out if it's even or odd?
 
-1.  We can create a variable to check for our passing array length, and use % to see if it's equal to zero. (Even number, no remainder)
+### 1. We can create a variable to check for our passing array length, and use % to see if it's equal to zero. (Even number, no remainder)
 
 ```typescript
 function absoluteValuesSumMiniation(a: number[]): number {
@@ -53,7 +53,7 @@ function absoluteValuesSumMiniation(a: number[]): number {
 }
 ```
 
-2.  We use the ternary operator return if its even or odd
+### 2. We use the ternary operator return if its even or odd
 
 ```typescript
 function absoluteValuesSumMiniation(a: number[]): number {
@@ -63,7 +63,8 @@ function absoluteValuesSumMiniation(a: number[]): number {
 }
 ```
 
-3.  If it's even...
+### 3. If it's even...
+
     - We take the length of the array and divide by 2 to get us halfway point of the array
     - Then we -1 to take the value to the left
 
@@ -75,7 +76,8 @@ function absoluteValuesSumMiniation(a: number[]): number {
 }
 ```
 
-4.  If it's odd...
+### 4. If it's odd...
+
     - We take the length of the array and divide by 2 to get us halfway point of the array
     - Because its odd, it wont be divisible by 2 and; so we use **Math.floor()** to get an whole number instead of a float
 

@@ -8,7 +8,7 @@
 - [npm.js](https://www.npmjs.com/) - Package Manager for Node.js
 - [TypeScript](https://www.typescriptlang.org/) - for Typescript Language
 
-## Run a typescript file using Quoakka.js
+## Run a typescript file using Quoakka.js for console output in-editor
 
 1.  Example Code
 
