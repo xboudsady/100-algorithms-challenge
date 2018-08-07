@@ -35,13 +35,13 @@ The sum of the first and second digits of the input number.
 
 ---
 
-### 1. The Setup
+1.  The Setup
 
     ```typescript
     function addTwoDigits(n: any): number {}
     ```
 
-### 2. We want to tur the passing argument in the parameter to a string, so we can split it.
+2.  We want to tur the passing argument in the parameter to a string, so we can split it.
 
     - Initialize a variable called `nums`
     - Assign the value `n` which is the parameter to `n.toString()` to covert it to a string of character
@@ -53,10 +53,11 @@ The sum of the first and second digits of the input number.
     }
     ```
 
-### 3. Then use `reduce()` to call a function to add up the value, and return its value
+3.  Then use `reduce()` to call a function to add up the value, and return its value
 
-    - > The `reduce()` method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
-    - The `reduce()` method takes in a `function` with two parameters,
+    - The `reduce()` method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
+
+    * The `reduce()` method takes in a `function` with two parameters,
       - The first is the `accumulator` the number to be added
       - The second is the `currentValue`
       - In the fucntion code block, we add the `accumulator + currentValue`
@@ -71,7 +72,7 @@ The sum of the first and second digits of the input number.
     }
     ```
 
-### 4. Convert the added string back into an integer.
+4.  Convert the added string back into an integer.
 
     - Since the return value is two `strings` added together, we need to convert them to `int` by using the `parstInt()` method.
 
@@ -87,7 +88,7 @@ The sum of the first and second digits of the input number.
     console.log(addTwoDigits(29)); /* --> 11 */
     ```
 
-### 5. Alternate Solution
+5.  Alternate Solution
 
     - We can return the sum of both `parseInt()`, of index[0], and index[1] of the `num` array of character during our previous step
 
